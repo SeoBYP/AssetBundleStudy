@@ -1,0 +1,17 @@
+AB8.first_frame_ms_since_process_start	3609
+AB8.first_frame_realtimeSinceStartup_ms	2918
+AB8.1_loaded.material_Lit_alive	1 [2683:256]
+AB8.1_loaded.go1	Lit id=2683:256 shader=Universal Render Pipeline/Lit
+AB8.2_after_Unload_false.loaded_bundles	0 []
+AB8.2_after_Unload_false.material_Lit_alive	1 [2683:256]
+AB8.2_after_Unload_false.go1	Lit id=2683:256 shader=Universal Render Pipeline/Lit
+AB8.3_reloaded.material_Lit_alive	2 [2683:256,2687:768]
+AB8.3_reloaded.shader_URP_Lit_alive	2 [2684:256,2701:256]
+AB8.3_reloaded.go1	Lit id=2683:256 shader=Universal Render Pipeline/Lit
+AB8.3_reloaded.go2	Lit id=2687:768 shader=Universal Render Pipeline/Lit
+AB8.3_reloaded.mem_vs_single_load	first load native +5.54 MB, gc +0.04 MB, gfx +0.06 MB, reserved +0.00 MB / now native +7.10 MB, gc +0.11 MB, gfx +0.06 MB, reserved +4.00 MB
+AB8.3_reloaded.pixel[0]	rgb(140,133,130)
+AB8.3_reloaded.pixel[1]	rgb(142,135,132)
+AB8.4_after_destroy_go1_UnloadUnusedAssets.material_Lit_alive	1 [2687:768]
+AB8.4_after_destroy_go1_UnloadUnusedAssets.go2	Lit id=2687:768 shader=Universal Render Pipeline/Lit
+AB8.done	1

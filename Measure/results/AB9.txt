@@ -1,0 +1,23 @@
+AB9.first_frame_ms_since_process_start	3611
+AB9.first_frame_realtimeSinceStartup_ms	2967
+AB9.1_before.go	Lit id=2683:256 shader=Universal Render Pipeline/Lit
+AB9.1_before.pixel[0]	rgb(141,134,131)
+AB9.2_after_mat_Unload_true.go	sharedMaterial = null (missing)
+AB9.2_after_mat_Unload_true.material_Lit_alive	0 []
+AB9.2_after_mat_unload_true.pixel[0]	rgb(26,26,26)
+AB9.3_after_cube_Unload_true.go_alive	True
+AB9.3_after_cube_Unload_true.mesh	Cube
+AB9.3_after_cube_unload_true.pixel[0]	rgb(26,26,26)
+AB9.4_UnloadUnusedAssets.objects_1.rep0	2.86 ms (empty frame 1.08 ms)
+AB9.4_UnloadUnusedAssets.objects_1.rep1	1.81 ms (empty frame 0.77 ms)
+AB9.4_UnloadUnusedAssets.objects_1.rep2	1.54 ms (empty frame 0.50 ms)
+AB9.4_UnloadUnusedAssets.objects_1000.rep0	1.94 ms (empty frame 0.58 ms)
+AB9.4_UnloadUnusedAssets.objects_1000.rep1	1.59 ms (empty frame 0.60 ms)
+AB9.4_UnloadUnusedAssets.objects_1000.rep2	1.60 ms (empty frame 0.48 ms)
+AB9.4_UnloadUnusedAssets.objects_10000.rep0	5.83 ms (empty frame 0.62 ms)
+AB9.4_UnloadUnusedAssets.objects_10000.rep1	4.08 ms (empty frame 0.52 ms)
+AB9.4_UnloadUnusedAssets.objects_10000.rep2	3.38 ms (empty frame 0.56 ms)
+AB9.4_UnloadUnusedAssets.objects_50000.rep0	38.40 ms (empty frame 0.57 ms)
+AB9.4_UnloadUnusedAssets.objects_50000.rep1	33.93 ms (empty frame 1.12 ms)
+AB9.4_UnloadUnusedAssets.objects_50000.rep2	28.33 ms (empty frame 1.06 ms)
+AB9.done	1

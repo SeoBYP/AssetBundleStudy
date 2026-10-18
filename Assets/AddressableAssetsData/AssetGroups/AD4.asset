@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AD4
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: AD4
+  m_GUID: 49fa2e569baa7d54ab266a2ef3e732f1
+  m_SerializeEntries:
+  - m_GUID: 0a5a60b53dcc352438706bb4b7b833c3
+    m_Address: AD4/B
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecf25f36ee924ca46be7162940c50c3e
+    m_Address: AD4/A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2a47b3bb8ae762647862f01375566d04, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9f3d5b9604105794882c5a6ffb955305, type: 2}
+    - {fileID: 11400000, guid: 4a99c01cc1e671949a7ad600bb7f1b61, type: 2}
+    m_SchemaDisplayOrder:
+    - AD4_BundledAssetGroupSchema
+    - AD4_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

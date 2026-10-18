@@ -1,0 +1,53 @@
+AD6/obj_instantiate.first_frame_ms_since_process_start	3566
+AD6/obj_instantiate.first_frame_realtimeSinceStartup_ms	2952
+AD6/obj_instantiate.init	Succeeded 78.17 ms
+AD6/obj_instantiate.1_before.instance	Lit id=2694:256 shader=Universal Render Pipeline/Lit
+AD6/obj_instantiate.1_before.bundles	3 [16c5df3b2c9f29dc41fb027c7c447bf9.bundle, 48cce9012977da12a753c14387bf7d7b_monoscripts.bundle, 8d066b348d8fd068f6b4c89a8ff52d67.bundle]
+AD6/obj_instantiate.1_before.pixel[0]	rgb(142,135,131)
+AD6/obj_instantiate.2_after.instance_alive	True
+AD6/obj_instantiate.2_after.instance	sharedMaterial = null (missing)
+AD6/obj_instantiate.2_after.handle_valid	False
+AD6/obj_instantiate.2_after.bundles	0 []
+AD6/obj_instantiate.2_after.material_Lit_alive	0 []
+AD6/obj_instantiate.2_after.pixel[0]	rgb(26,26,26)
+AD6/obj_instantiate.done	1
+AD6/instasync_release.first_frame_ms_since_process_start	3740
+AD6/instasync_release.first_frame_realtimeSinceStartup_ms	2959
+AD6/instasync_release.init	Succeeded 69.58 ms
+AD6/instasync_release.1_before.instance	Lit id=2694:256 shader=Universal Render Pipeline/Lit
+AD6/instasync_release.1_before.bundles	3 [16c5df3b2c9f29dc41fb027c7c447bf9.bundle, 48cce9012977da12a753c14387bf7d7b_monoscripts.bundle, 8d066b348d8fd068f6b4c89a8ff52d67.bundle]
+AD6/instasync_release.1_before.pixel[0]	rgb(141,134,131)
+AD6/instasync_release.2_after.instance_alive	False
+AD6/instasync_release.2_after.instance	GameObject destroyed
+AD6/instasync_release.2_after.handle_valid	False
+AD6/instasync_release.2_after.bundles	0 []
+AD6/instasync_release.2_after.material_Lit_alive	0 []
+AD6/instasync_release.2_after.pixel[0]	object destroyed
+AD6/instasync_release.done	1
+AD6/instasync_destroy.first_frame_ms_since_process_start	3599
+AD6/instasync_destroy.first_frame_realtimeSinceStartup_ms	2934
+AD6/instasync_destroy.init	Succeeded 67.40 ms
+AD6/instasync_destroy.1_before.instance	Lit id=2694:256 shader=Universal Render Pipeline/Lit
+AD6/instasync_destroy.1_before.bundles	3 [16c5df3b2c9f29dc41fb027c7c447bf9.bundle, 48cce9012977da12a753c14387bf7d7b_monoscripts.bundle, 8d066b348d8fd068f6b4c89a8ff52d67.bundle]
+AD6/instasync_destroy.1_before.pixel[0]	rgb(141,134,131)
+AD6/instasync_destroy.2_after.instance_alive	False
+AD6/instasync_destroy.2_after.instance	GameObject destroyed
+AD6/instasync_destroy.2_after.handle_valid	True
+AD6/instasync_destroy.2_after.bundles	3 [16c5df3b2c9f29dc41fb027c7c447bf9.bundle, 48cce9012977da12a753c14387bf7d7b_monoscripts.bundle, 8d066b348d8fd068f6b4c89a8ff52d67.bundle]
+AD6/instasync_destroy.2_after.material_Lit_alive	1 [2694:256]
+AD6/instasync_destroy.2_after.pixel[0]	object destroyed
+AD6/instasync_destroy.done	1
+AD6/instasync_releaseinstance.first_frame_ms_since_process_start	3661
+AD6/instasync_releaseinstance.first_frame_realtimeSinceStartup_ms	2963
+AD6/instasync_releaseinstance.init	Succeeded 72.89 ms
+AD6/instasync_releaseinstance.1_before.instance	Lit id=2695:256 shader=Universal Render Pipeline/Lit
+AD6/instasync_releaseinstance.1_before.bundles	3 [16c5df3b2c9f29dc41fb027c7c447bf9.bundle, 48cce9012977da12a753c14387bf7d7b_monoscripts.bundle, 8d066b348d8fd068f6b4c89a8ff52d67.bundle]
+AD6/instasync_releaseinstance.1_before.pixel[0]	rgb(141,134,131)
+AD6/instasync_releaseinstance.ReleaseInstance_returned	True
+AD6/instasync_releaseinstance.2_after.instance_alive	False
+AD6/instasync_releaseinstance.2_after.instance	GameObject destroyed
+AD6/instasync_releaseinstance.2_after.handle_valid	False
+AD6/instasync_releaseinstance.2_after.bundles	0 []
+AD6/instasync_releaseinstance.2_after.material_Lit_alive	0 []
+AD6/instasync_releaseinstance.2_after.pixel[0]	object destroyed
+AD6/instasync_releaseinstance.done	1

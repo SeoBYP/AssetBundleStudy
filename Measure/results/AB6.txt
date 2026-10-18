@@ -1,0 +1,14 @@
+AB6.first_frame_ms_since_process_start	3611
+AB6.first_frame_realtimeSinceStartup_ms	2927
+AB6.1_instance_before_dep	sharedMaterial = null (missing)
+AB6.1_prefab_before_dep	sharedMaterial = null (missing)
+AB6.1_before.pixel[0]	rgb(209,0,209)
+AB6.2_instance_after_dep	Lit id=2683:256 shader=Universal Render Pipeline/Lit
+AB6.2_prefab_after_dep	Lit id=2683:256 shader=Universal Render Pipeline/Lit
+AB6.2_new_instance_after_dep	Lit id=2683:256 shader=Universal Render Pipeline/Lit
+AB6.2_loadasset_again_same_object	True
+AB6.2_after.pixel[0]	rgb(140,133,130)
+AB6.2_after.pixel[1]	rgb(143,135,132)
+AB6.3_reload_cube_bundle_instance	Lit id=2683:256 shader=Universal Render Pipeline/Lit
+AB6.3_reloaded.pixel[0]	rgb(141,134,131)
+AB6.done	1

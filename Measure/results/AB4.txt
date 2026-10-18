@@ -1,0 +1,33 @@
+AB4/lzma.first_frame_ms_since_process_start	3620
+AB4/lzma.first_frame_realtimeSinceStartup_ms	2986
+AB4/lzma.file_size	8.19 MB
+AB4/lzma.1_after_ReadAllBytes	native +0.00 MB, gc +8.20 MB, gfx +0.00 MB, reserved +0.00 MB
+AB4/lzma.2_after_LoadFromMemory	native +13.31 MB, gc +8.20 MB, gfx +0.00 MB, reserved +0.00 MB (313.54 ms)
+AB4/lzma.2_bundle_runtime_size	0.01 MB
+AB4/lzma.3_after_bytes_null_GC	native +14.07 MB, gc +0.02 MB, gfx +0.00 MB, reserved +0.00 MB
+AB4/lzma.4_after_LoadAsset	native +14.59 MB, gc +0.02 MB, gfx +16.00 MB, reserved +0.00 MB
+AB4/lzma.5_after_Unload_true	native +2.31 MB, gc +0.03 MB, gfx +0.00 MB, reserved +0.00 MB
+AB4/lzma.cmp_LoadFromFile_after_open	native +12.27 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB4/lzma.done	1
+AB4/lz4.first_frame_ms_since_process_start	3607
+AB4/lz4.first_frame_realtimeSinceStartup_ms	2953
+AB4/lz4.file_size	11.38 MB
+AB4/lz4.1_after_ReadAllBytes	native +0.00 MB, gc +11.38 MB, gfx +0.00 MB, reserved +0.00 MB
+AB4/lz4.2_after_LoadFromMemory	native +12.82 MB, gc +11.39 MB, gfx +0.00 MB, reserved +0.00 MB (11.64 ms)
+AB4/lz4.2_bundle_runtime_size	0.01 MB
+AB4/lz4.3_after_bytes_null_GC	native +13.45 MB, gc +0.02 MB, gfx +0.00 MB, reserved +0.00 MB
+AB4/lz4.4_after_LoadAsset	native +13.48 MB, gc +0.02 MB, gfx +16.00 MB, reserved +0.00 MB
+AB4/lz4.5_after_Unload_true	native +1.81 MB, gc +0.03 MB, gfx +0.00 MB, reserved +0.00 MB
+AB4/lz4.cmp_LoadFromFile_after_open	native +0.26 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB4/lz4.done	1
+AB4/none.first_frame_ms_since_process_start	3625
+AB4/none.first_frame_realtimeSinceStartup_ms	2997
+AB4/none.file_size	12.00 MB
+AB4/none.1_after_ReadAllBytes	native +0.00 MB, gc +12.01 MB, gfx +0.00 MB, reserved +0.00 MB
+AB4/none.2_after_LoadFromMemory	native +13.31 MB, gc +12.02 MB, gfx +0.00 MB, reserved +0.00 MB (18.20 ms)
+AB4/none.2_bundle_runtime_size	0.01 MB
+AB4/none.3_after_bytes_null_GC	native +13.94 MB, gc +0.02 MB, gfx +0.00 MB, reserved +0.00 MB
+AB4/none.4_after_LoadAsset	native +13.97 MB, gc +0.02 MB, gfx +16.00 MB, reserved +0.00 MB
+AB4/none.5_after_Unload_true	native +1.69 MB, gc +0.03 MB, gfx +0.00 MB, reserved +0.00 MB
+AB4/none.cmp_LoadFromFile_after_open	native +0.01 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB4/none.done	1

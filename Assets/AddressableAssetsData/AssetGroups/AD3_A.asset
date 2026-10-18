@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AD3_A
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: AD3_A
+  m_GUID: 0f7e001a8daa945429687c7119c525f7
+  m_SerializeEntries:
+  - m_GUID: 905a849e94c37a441a85b5916292586a
+    m_Address: AD3/CubeA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2a47b3bb8ae762647862f01375566d04, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e05391a7d8d558b4f87779cc344235ca, type: 2}
+    - {fileID: 11400000, guid: a4edadbdca0f6b54580191b08b345f37, type: 2}
+    m_SchemaDisplayOrder:
+    - AD3_A_BundledAssetGroupSchema
+    - AD3_A_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

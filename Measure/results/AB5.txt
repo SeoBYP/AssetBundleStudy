@@ -1,0 +1,92 @@
+AB5/nover.first_frame_ms_since_process_start	3817
+AB5/nover.first_frame_realtimeSinceStartup_ms	3010
+AB5/nover.comp	lzma
+AB5/nover.load1.ms	492.94 ms
+AB5/nover.load1.result	Success downloadedBytes=8587764
+AB5/nover.load1.mem_after_open	native +14.50 MB, gc +0.07 MB, gfx +0.00 MB, reserved +2.00 MB
+AB5/nover.load1.bundle_runtime_size	0.01 MB
+AB5/nover.load1.loadasset	ok
+AB5/nover.load2.ms	326.68 ms
+AB5/nover.load2.result	Success downloadedBytes=8587764
+AB5/nover.load2.mem_after_open	native +12.29 MB, gc +0.03 MB, gfx +0.00 MB, reserved +0.00 MB
+AB5/nover.load2.bundle_runtime_size	0.01 MB
+AB5/nover.load2.loadasset	ok
+AB5/nover.cache_files	0 files, 0.00 MB
+AB5/nover.done	1
+AB5/ver_first.first_frame_ms_since_process_start	3621
+AB5/ver_first.first_frame_realtimeSinceStartup_ms	2945
+AB5/ver_first.comp	lzma
+AB5/ver_first.ClearCache	True
+AB5/ver_first.load1.ms	331.24 ms
+AB5/ver_first.load1.result	Success downloadedBytes=8587764
+AB5/ver_first.load1.mem_after_open	native +2.34 MB, gc +0.06 MB, gfx +0.00 MB, reserved +2.00 MB
+AB5/ver_first.load1.bundle_runtime_size	0.01 MB
+AB5/ver_first.load1.loadasset	ok
+AB5/ver_first.load2.ms	3.11 ms
+AB5/ver_first.load2.result	Success downloadedBytes=0
+AB5/ver_first.load2.mem_after_open	native +0.27 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB5/ver_first.load2.bundle_runtime_size	0.01 MB
+AB5/ver_first.load2.loadasset	ok
+AB5/ver_first.cache_files	2 files, 11.99 MB
+AB5/ver_first.done	1
+AB5/ver_second.first_frame_ms_since_process_start	3624
+AB5/ver_second.first_frame_realtimeSinceStartup_ms	2976
+AB5/ver_second.comp	lzma
+AB5/ver_second.load1.ms	26.90 ms
+AB5/ver_second.load1.result	Success downloadedBytes=0
+AB5/ver_second.load1.mem_after_open	native +2.43 MB, gc +0.01 MB, gfx +0.00 MB, reserved +0.00 MB
+AB5/ver_second.load1.bundle_runtime_size	0.01 MB
+AB5/ver_second.load1.loadasset	ok
+AB5/ver_second.load2.ms	3.10 ms
+AB5/ver_second.load2.result	Success downloadedBytes=0
+AB5/ver_second.load2.mem_after_open	native +0.52 MB, gc +0.00 MB, gfx +0.00 MB, reserved +2.00 MB
+AB5/ver_second.load2.bundle_runtime_size	0.01 MB
+AB5/ver_second.load2.loadasset	ok
+AB5/ver_second.cache_files	3 files, 11.99 MB
+AB5/ver_second.done	1
+AB5/nover.first_frame_ms_since_process_start	3618
+AB5/nover.first_frame_realtimeSinceStartup_ms	2960
+AB5/nover.comp	lz4
+AB5/nover.load1.ms	45.18 ms
+AB5/nover.load1.result	Success downloadedBytes=11930807
+AB5/nover.load1.mem_after_open	native +13.83 MB, gc +0.02 MB, gfx +0.00 MB, reserved +2.00 MB
+AB5/nover.load1.bundle_runtime_size	0.01 MB
+AB5/nover.load1.loadasset	ok
+AB5/nover.load2.ms	17.98 ms
+AB5/nover.load2.result	Success downloadedBytes=11930807
+AB5/nover.load2.mem_after_open	native +11.67 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB5/nover.load2.bundle_runtime_size	0.01 MB
+AB5/nover.load2.loadasset	ok
+AB5/nover.cache_files	3 files, 11.99 MB
+AB5/nover.done	1
+AB5/ver_first.first_frame_ms_since_process_start	3883
+AB5/ver_first.first_frame_realtimeSinceStartup_ms	3141
+AB5/ver_first.comp	lz4
+AB5/ver_first.ClearCache	True
+AB5/ver_first.load1.ms	45.75 ms
+AB5/ver_first.load1.result	Success downloadedBytes=11930807
+AB5/ver_first.load1.mem_after_open	native +2.55 MB, gc +0.02 MB, gfx +0.00 MB, reserved +2.00 MB
+AB5/ver_first.load1.bundle_runtime_size	0.01 MB
+AB5/ver_first.load1.loadasset	ok
+AB5/ver_first.load2.ms	3.55 ms
+AB5/ver_first.load2.result	Success downloadedBytes=0
+AB5/ver_first.load2.mem_after_open	native +0.27 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB5/ver_first.load2.bundle_runtime_size	0.01 MB
+AB5/ver_first.load2.loadasset	ok
+AB5/ver_first.cache_files	2 files, 11.38 MB
+AB5/ver_first.done	1
+AB5/ver_second.first_frame_ms_since_process_start	4182
+AB5/ver_second.first_frame_realtimeSinceStartup_ms	3191
+AB5/ver_second.comp	lz4
+AB5/ver_second.load1.ms	43.53 ms
+AB5/ver_second.load1.result	Success downloadedBytes=0
+AB5/ver_second.load1.mem_after_open	native +2.18 MB, gc +0.02 MB, gfx +0.00 MB, reserved +0.00 MB
+AB5/ver_second.load1.bundle_runtime_size	0.01 MB
+AB5/ver_second.load1.loadasset	ok
+AB5/ver_second.load2.ms	2.94 ms
+AB5/ver_second.load2.result	Success downloadedBytes=0
+AB5/ver_second.load2.mem_after_open	native +0.39 MB, gc +0.00 MB, gfx +0.00 MB, reserved +2.00 MB
+AB5/ver_second.load2.bundle_runtime_size	0.01 MB
+AB5/ver_second.load2.loadasset	ok
+AB5/ver_second.cache_files	3 files, 11.38 MB
+AB5/ver_second.done	1

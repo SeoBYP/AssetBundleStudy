@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AD2
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: AD2
+  m_GUID: 8b5650f466dda854ea95a43687f717f0
+  m_SerializeEntries:
+  - m_GUID: 0399f99fb14f33542a75ed105854e53c
+    m_Address: AD2/Tex01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bd030e2fe7046f4783b2cbb78a4495e
+    m_Address: AD2/Tex03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L3
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 293081c48cc217042980efff0c797f91
+    m_Address: AD2/Tex00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L0
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 337c83ebfa806924d8935046c1d54d8c
+    m_Address: AD2/Tex04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L0
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d20db66ec76b1b41b372c340dcbb4e8
+    m_Address: AD2/Tex15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L3
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ddae5b7db19e2846a2cb4a0e9503f09
+    m_Address: AD2/Tex19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L3
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f144f15ab6fe6149992906b7259ea97
+    m_Address: AD2/Tex17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ffd00bae553d564c96d0a6d23e8666e
+    m_Address: AD2/Tex18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62ae8ca52b62b9049a1b479fb087d7de
+    m_Address: AD2/Tex09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f0562ef03310a34282d2c6681e43e68
+    m_Address: AD2/Tex10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e43db8628cf6d34494380cfd482e34d
+    m_Address: AD2/Tex02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a423041ecbd1250469f45bfe31465274
+    m_Address: AD2/Tex13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L1
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8dbda4aa9477de4c90f7611665a8f6f
+    m_Address: AD2/Tex11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L3
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa5c46119adaaa94e999f335815fd35f
+    m_Address: AD2/Tex06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b36d6369b2103194a9a385d4deac0020
+    m_Address: AD2/Tex16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L0
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b412a5da395b2b7459fbd76854fb9a24
+    m_Address: AD2/Tex08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L0
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0b06758d6025134ab683f4a72528378
+    m_Address: AD2/Tex14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L2
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd7e9cfabd6f80148b62f7d1e99104d2
+    m_Address: AD2/Tex12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L0
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de07c5dda2e64d44db593fc56e36405c
+    m_Address: AD2/Tex07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L3
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de2ec799bd617524bb008b26ce2570cc
+    m_Address: AD2/Tex05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - L1
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2a47b3bb8ae762647862f01375566d04, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7a5087bee7e34e2439be4b9a2d7aa5c0, type: 2}
+    - {fileID: 11400000, guid: ab53e9adf4a23b142806cabbde5c7dbf, type: 2}
+    m_SchemaDisplayOrder:
+    - AD2_BundledAssetGroupSchema
+    - AD2_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

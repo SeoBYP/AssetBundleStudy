@@ -1,0 +1,285 @@
+AB3/lzma.first_frame_ms_since_process_start	3557
+AB3/lzma.first_frame_realtimeSinceStartup_ms	2929
+AB3/lzma.payload.file_size	8386.5 KB
+AB3/lzma.payload.open_ms	269.13 ms
+AB3/lzma.payload.mem_after_open	native +13.31 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.payload.bundle_runtime_size	0.01 MB
+AB3/lzma.payload.loadasset_ms	7.94 ms
+AB3/lzma.payload.mem_after_loadasset	native +13.58 MB, gc +0.03 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/lzma.cube.file_size	97.2 KB
+AB3/lzma.cube.open_ms	4.48 ms
+AB3/lzma.cube.mem_after_open	native +0.61 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.cube.bundle_runtime_size	0.01 MB
+AB3/lzma.cube.loadasset_ms	2.95 ms
+AB3/lzma.cube.mem_after_loadasset	native +2.17 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/lzma.scene.file_size	900.5 KB
+AB3/lzma.scene.open_ms	34.94 ms
+AB3/lzma.scene.mem_after_open	native +2.58 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.scene.bundle_runtime_size	0.01 MB
+AB3/lzma.done	1
+AB3/lzma.first_frame_ms_since_process_start	3530
+AB3/lzma.first_frame_realtimeSinceStartup_ms	2915
+AB3/lzma.payload.file_size	8386.5 KB
+AB3/lzma.payload.open_ms	272.67 ms
+AB3/lzma.payload.mem_after_open	native +13.31 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.payload.bundle_runtime_size	0.01 MB
+AB3/lzma.payload.loadasset_ms	7.94 ms
+AB3/lzma.payload.mem_after_loadasset	native +13.45 MB, gc +0.03 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/lzma.cube.file_size	97.2 KB
+AB3/lzma.cube.open_ms	4.28 ms
+AB3/lzma.cube.mem_after_open	native +0.61 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.cube.bundle_runtime_size	0.01 MB
+AB3/lzma.cube.loadasset_ms	2.85 ms
+AB3/lzma.cube.mem_after_loadasset	native +2.17 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/lzma.scene.file_size	900.5 KB
+AB3/lzma.scene.open_ms	35.09 ms
+AB3/lzma.scene.mem_after_open	native +2.58 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.scene.bundle_runtime_size	0.01 MB
+AB3/lzma.done	1
+AB3/lzma.first_frame_ms_since_process_start	3563
+AB3/lzma.first_frame_realtimeSinceStartup_ms	2949
+AB3/lzma.payload.file_size	8386.5 KB
+AB3/lzma.payload.open_ms	277.51 ms
+AB3/lzma.payload.mem_after_open	native +13.31 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.payload.bundle_runtime_size	0.01 MB
+AB3/lzma.payload.loadasset_ms	7.56 ms
+AB3/lzma.payload.mem_after_loadasset	native +13.45 MB, gc +0.03 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/lzma.cube.file_size	97.2 KB
+AB3/lzma.cube.open_ms	5.62 ms
+AB3/lzma.cube.mem_after_open	native +0.61 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.cube.bundle_runtime_size	0.01 MB
+AB3/lzma.cube.loadasset_ms	4.22 ms
+AB3/lzma.cube.mem_after_loadasset	native +2.17 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/lzma.scene.file_size	900.5 KB
+AB3/lzma.scene.open_ms	36.57 ms
+AB3/lzma.scene.mem_after_open	native +2.58 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.scene.bundle_runtime_size	0.01 MB
+AB3/lzma.done	1
+AB3/lzma.first_frame_ms_since_process_start	3559
+AB3/lzma.first_frame_realtimeSinceStartup_ms	2934
+AB3/lzma.payload.file_size	8386.5 KB
+AB3/lzma.payload.open_ms	281.76 ms
+AB3/lzma.payload.mem_after_open	native +13.31 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.payload.bundle_runtime_size	0.01 MB
+AB3/lzma.payload.loadasset_ms	7.48 ms
+AB3/lzma.payload.mem_after_loadasset	native +13.45 MB, gc +0.03 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/lzma.cube.file_size	97.2 KB
+AB3/lzma.cube.open_ms	4.44 ms
+AB3/lzma.cube.mem_after_open	native +0.61 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.cube.bundle_runtime_size	0.01 MB
+AB3/lzma.cube.loadasset_ms	3.39 ms
+AB3/lzma.cube.mem_after_loadasset	native +2.17 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/lzma.scene.file_size	900.5 KB
+AB3/lzma.scene.open_ms	38.24 ms
+AB3/lzma.scene.mem_after_open	native +2.58 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.scene.bundle_runtime_size	0.01 MB
+AB3/lzma.done	1
+AB3/lzma.first_frame_ms_since_process_start	3562
+AB3/lzma.first_frame_realtimeSinceStartup_ms	2930
+AB3/lzma.payload.file_size	8386.5 KB
+AB3/lzma.payload.open_ms	276.60 ms
+AB3/lzma.payload.mem_after_open	native +13.31 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.payload.bundle_runtime_size	0.01 MB
+AB3/lzma.payload.loadasset_ms	7.36 ms
+AB3/lzma.payload.mem_after_loadasset	native +13.45 MB, gc +0.03 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/lzma.cube.file_size	97.2 KB
+AB3/lzma.cube.open_ms	4.56 ms
+AB3/lzma.cube.mem_after_open	native +0.61 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.cube.bundle_runtime_size	0.01 MB
+AB3/lzma.cube.loadasset_ms	2.97 ms
+AB3/lzma.cube.mem_after_loadasset	native +2.17 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/lzma.scene.file_size	900.5 KB
+AB3/lzma.scene.open_ms	41.39 ms
+AB3/lzma.scene.mem_after_open	native +2.58 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lzma.scene.bundle_runtime_size	0.01 MB
+AB3/lzma.done	1
+AB3/lz4.first_frame_ms_since_process_start	3538
+AB3/lz4.first_frame_realtimeSinceStartup_ms	2927
+AB3/lz4.payload.file_size	11651.2 KB
+AB3/lz4.payload.open_ms	0.75 ms
+AB3/lz4.payload.mem_after_open	native +1.29 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.payload.bundle_runtime_size	0.01 MB
+AB3/lz4.payload.loadasset_ms	7.71 ms
+AB3/lz4.payload.mem_after_loadasset	native +1.43 MB, gc +0.02 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/lz4.cube.file_size	265.6 KB
+AB3/lz4.cube.open_ms	0.38 ms
+AB3/lz4.cube.mem_after_open	native +0.30 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.cube.bundle_runtime_size	0.01 MB
+AB3/lz4.cube.loadasset_ms	3.35 ms
+AB3/lz4.cube.mem_after_loadasset	native +1.85 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/lz4.scene.file_size	1930.7 KB
+AB3/lz4.scene.open_ms	0.41 ms
+AB3/lz4.scene.mem_after_open	native +0.41 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.scene.bundle_runtime_size	0.01 MB
+AB3/lz4.done	1
+AB3/lz4.first_frame_ms_since_process_start	3544
+AB3/lz4.first_frame_realtimeSinceStartup_ms	2936
+AB3/lz4.payload.file_size	11651.2 KB
+AB3/lz4.payload.open_ms	0.85 ms
+AB3/lz4.payload.mem_after_open	native +1.29 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.payload.bundle_runtime_size	0.01 MB
+AB3/lz4.payload.loadasset_ms	7.89 ms
+AB3/lz4.payload.mem_after_loadasset	native +1.43 MB, gc +0.02 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/lz4.cube.file_size	265.6 KB
+AB3/lz4.cube.open_ms	0.42 ms
+AB3/lz4.cube.mem_after_open	native +0.30 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.cube.bundle_runtime_size	0.01 MB
+AB3/lz4.cube.loadasset_ms	3.78 ms
+AB3/lz4.cube.mem_after_loadasset	native +1.85 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/lz4.scene.file_size	1930.7 KB
+AB3/lz4.scene.open_ms	0.44 ms
+AB3/lz4.scene.mem_after_open	native +0.41 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.scene.bundle_runtime_size	0.01 MB
+AB3/lz4.done	1
+AB3/lz4.first_frame_ms_since_process_start	3625
+AB3/lz4.first_frame_realtimeSinceStartup_ms	2981
+AB3/lz4.payload.file_size	11651.2 KB
+AB3/lz4.payload.open_ms	0.78 ms
+AB3/lz4.payload.mem_after_open	native +1.29 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.payload.bundle_runtime_size	0.01 MB
+AB3/lz4.payload.loadasset_ms	7.96 ms
+AB3/lz4.payload.mem_after_loadasset	native +1.43 MB, gc +0.02 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/lz4.cube.file_size	265.6 KB
+AB3/lz4.cube.open_ms	0.61 ms
+AB3/lz4.cube.mem_after_open	native +0.30 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.cube.bundle_runtime_size	0.01 MB
+AB3/lz4.cube.loadasset_ms	3.14 ms
+AB3/lz4.cube.mem_after_loadasset	native +1.85 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/lz4.scene.file_size	1930.7 KB
+AB3/lz4.scene.open_ms	0.40 ms
+AB3/lz4.scene.mem_after_open	native +0.41 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.scene.bundle_runtime_size	0.01 MB
+AB3/lz4.done	1
+AB3/lz4.first_frame_ms_since_process_start	3565
+AB3/lz4.first_frame_realtimeSinceStartup_ms	2937
+AB3/lz4.payload.file_size	11651.2 KB
+AB3/lz4.payload.open_ms	0.89 ms
+AB3/lz4.payload.mem_after_open	native +1.29 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.payload.bundle_runtime_size	0.01 MB
+AB3/lz4.payload.loadasset_ms	9.43 ms
+AB3/lz4.payload.mem_after_loadasset	native +1.43 MB, gc +0.02 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/lz4.cube.file_size	265.6 KB
+AB3/lz4.cube.open_ms	0.43 ms
+AB3/lz4.cube.mem_after_open	native +0.30 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.cube.bundle_runtime_size	0.01 MB
+AB3/lz4.cube.loadasset_ms	3.47 ms
+AB3/lz4.cube.mem_after_loadasset	native +1.85 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/lz4.scene.file_size	1930.7 KB
+AB3/lz4.scene.open_ms	0.69 ms
+AB3/lz4.scene.mem_after_open	native +0.41 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.scene.bundle_runtime_size	0.01 MB
+AB3/lz4.done	1
+AB3/lz4.first_frame_ms_since_process_start	3564
+AB3/lz4.first_frame_realtimeSinceStartup_ms	2921
+AB3/lz4.payload.file_size	11651.2 KB
+AB3/lz4.payload.open_ms	0.82 ms
+AB3/lz4.payload.mem_after_open	native +1.29 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.payload.bundle_runtime_size	0.01 MB
+AB3/lz4.payload.loadasset_ms	7.90 ms
+AB3/lz4.payload.mem_after_loadasset	native +1.43 MB, gc +0.02 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/lz4.cube.file_size	265.6 KB
+AB3/lz4.cube.open_ms	0.75 ms
+AB3/lz4.cube.mem_after_open	native +0.30 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.cube.bundle_runtime_size	0.01 MB
+AB3/lz4.cube.loadasset_ms	3.23 ms
+AB3/lz4.cube.mem_after_loadasset	native +1.85 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/lz4.scene.file_size	1930.7 KB
+AB3/lz4.scene.open_ms	0.41 ms
+AB3/lz4.scene.mem_after_open	native +0.41 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/lz4.scene.bundle_runtime_size	0.01 MB
+AB3/lz4.done	1
+AB3/none.first_frame_ms_since_process_start	3575
+AB3/none.first_frame_realtimeSinceStartup_ms	2921
+AB3/none.payload.file_size	12292.7 KB
+AB3/none.payload.open_ms	0.68 ms
+AB3/none.payload.mem_after_open	native +1.04 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.payload.bundle_runtime_size	0.01 MB
+AB3/none.payload.loadasset_ms	6.96 ms
+AB3/none.payload.mem_after_loadasset	native +1.17 MB, gc +0.02 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/none.cube.file_size	442.1 KB
+AB3/none.cube.open_ms	0.42 ms
+AB3/none.cube.mem_after_open	native +0.13 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.cube.bundle_runtime_size	0.01 MB
+AB3/none.cube.loadasset_ms	3.18 ms
+AB3/none.cube.mem_after_loadasset	native +1.68 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/none.scene.file_size	2726.8 KB
+AB3/none.scene.open_ms	0.39 ms
+AB3/none.scene.mem_after_open	native +0.21 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.scene.bundle_runtime_size	0.01 MB
+AB3/none.done	1
+AB3/none.first_frame_ms_since_process_start	3630
+AB3/none.first_frame_realtimeSinceStartup_ms	2998
+AB3/none.payload.file_size	12292.7 KB
+AB3/none.payload.open_ms	0.97 ms
+AB3/none.payload.mem_after_open	native +1.04 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.payload.bundle_runtime_size	0.01 MB
+AB3/none.payload.loadasset_ms	6.68 ms
+AB3/none.payload.mem_after_loadasset	native +1.17 MB, gc +0.02 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/none.cube.file_size	442.1 KB
+AB3/none.cube.open_ms	0.54 ms
+AB3/none.cube.mem_after_open	native +0.13 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.cube.bundle_runtime_size	0.01 MB
+AB3/none.cube.loadasset_ms	4.02 ms
+AB3/none.cube.mem_after_loadasset	native +1.68 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/none.scene.file_size	2726.8 KB
+AB3/none.scene.open_ms	0.66 ms
+AB3/none.scene.mem_after_open	native +0.21 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.scene.bundle_runtime_size	0.01 MB
+AB3/none.done	1
+AB3/none.first_frame_ms_since_process_start	3656
+AB3/none.first_frame_realtimeSinceStartup_ms	3009
+AB3/none.payload.file_size	12292.7 KB
+AB3/none.payload.open_ms	0.90 ms
+AB3/none.payload.mem_after_open	native +1.04 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.payload.bundle_runtime_size	0.01 MB
+AB3/none.payload.loadasset_ms	6.74 ms
+AB3/none.payload.mem_after_loadasset	native +1.17 MB, gc +0.02 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/none.cube.file_size	442.1 KB
+AB3/none.cube.open_ms	0.46 ms
+AB3/none.cube.mem_after_open	native +0.13 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.cube.bundle_runtime_size	0.01 MB
+AB3/none.cube.loadasset_ms	3.18 ms
+AB3/none.cube.mem_after_loadasset	native +1.68 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/none.scene.file_size	2726.8 KB
+AB3/none.scene.open_ms	0.44 ms
+AB3/none.scene.mem_after_open	native +0.21 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.scene.bundle_runtime_size	0.01 MB
+AB3/none.done	1
+AB3/none.first_frame_ms_since_process_start	3744
+AB3/none.first_frame_realtimeSinceStartup_ms	2954
+AB3/none.payload.file_size	12292.7 KB
+AB3/none.payload.open_ms	0.77 ms
+AB3/none.payload.mem_after_open	native +1.04 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.payload.bundle_runtime_size	0.01 MB
+AB3/none.payload.loadasset_ms	6.60 ms
+AB3/none.payload.mem_after_loadasset	native +1.29 MB, gc +0.02 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/none.cube.file_size	442.1 KB
+AB3/none.cube.open_ms	0.43 ms
+AB3/none.cube.mem_after_open	native +0.13 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.cube.bundle_runtime_size	0.01 MB
+AB3/none.cube.loadasset_ms	3.56 ms
+AB3/none.cube.mem_after_loadasset	native +1.68 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/none.scene.file_size	2726.8 KB
+AB3/none.scene.open_ms	0.54 ms
+AB3/none.scene.mem_after_open	native +0.21 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.scene.bundle_runtime_size	0.01 MB
+AB3/none.done	1
+AB3/none.first_frame_ms_since_process_start	3647
+AB3/none.first_frame_realtimeSinceStartup_ms	2978
+AB3/none.payload.file_size	12292.7 KB
+AB3/none.payload.open_ms	1.05 ms
+AB3/none.payload.mem_after_open	native +1.04 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.payload.bundle_runtime_size	0.01 MB
+AB3/none.payload.loadasset_ms	8.18 ms
+AB3/none.payload.mem_after_loadasset	native +1.17 MB, gc +0.02 MB, gfx +16.00 MB, reserved +0.00 MB
+AB3/none.cube.file_size	442.1 KB
+AB3/none.cube.open_ms	0.58 ms
+AB3/none.cube.mem_after_open	native +0.12 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.cube.bundle_runtime_size	0.01 MB
+AB3/none.cube.loadasset_ms	4.22 ms
+AB3/none.cube.mem_after_loadasset	native +1.67 MB, gc +0.02 MB, gfx +0.06 MB, reserved +0.00 MB
+AB3/none.scene.file_size	2726.8 KB
+AB3/none.scene.open_ms	0.69 ms
+AB3/none.scene.mem_after_open	native +0.21 MB, gc +0.00 MB, gfx +0.00 MB, reserved +0.00 MB
+AB3/none.scene.bundle_runtime_size	0.01 MB
+AB3/none.done	1

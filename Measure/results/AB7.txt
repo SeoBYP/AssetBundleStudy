@@ -1,0 +1,34 @@
+AB7/dup.first_frame_ms_since_process_start	3559
+AB7/dup.first_frame_realtimeSinceStartup_ms	2914
+AB7/dup.cubea.file_size	265.6 KB
+AB7/dup.cubea.GetAllAssetNames	assets/prefab/cube.prefab
+AB7/dup.cubeb.file_size	265.6 KB
+AB7/dup.cubeb.GetAllAssetNames	assets/measure/generated/cubeb.prefab
+AB7/dup.material_Lit_alive	2 [2683:256,2697:256]
+AB7/dup.shader_URP_Lit_alive	2 [2686:256,2700:256]
+AB7/dup.cubeA_material	Lit id=2683:256 shader=Universal Render Pipeline/Lit
+AB7/dup.cubeB_material	Lit id=2697:256 shader=Universal Render Pipeline/Lit
+AB7/dup.same_material_object	False
+AB7/dup.mem_after_load_all	native +7.70 MB, gc +0.09 MB, gfx +0.06 MB, reserved +2.00 MB
+AB7/dup.cubea.LoadAllAssets	GameObject:Cube
+AB7/dup.cubeb.LoadAllAssets	GameObject:CubeB
+AB7/dup.both.pixel[0]	rgb(140,133,130)
+AB7/dup.both.pixel[1]	rgb(141,134,131)
+AB7/dup.done	1
+AB7/shared.first_frame_ms_since_process_start	3556
+AB7/shared.first_frame_realtimeSinceStartup_ms	2917
+AB7/shared.cubea.file_size	3.9 KB
+AB7/shared.cubea.GetAllAssetNames	assets/prefab/cube.prefab
+AB7/shared.cubeb.file_size	4.0 KB
+AB7/shared.cubeb.GetAllAssetNames	assets/measure/generated/cubeb.prefab
+AB7/shared.material_Lit_alive	1 [2683:256]
+AB7/shared.shader_URP_Lit_alive	1 [2684:256]
+AB7/shared.cubeA_material	Lit id=2683:256 shader=Universal Render Pipeline/Lit
+AB7/shared.cubeB_material	Lit id=2683:256 shader=Universal Render Pipeline/Lit
+AB7/shared.same_material_object	True
+AB7/shared.mem_after_load_all	native +5.56 MB, gc +0.08 MB, gfx +0.06 MB, reserved +0.00 MB
+AB7/shared.cubea.LoadAllAssets	GameObject:Cube
+AB7/shared.cubeb.LoadAllAssets	GameObject:CubeB
+AB7/shared.both.pixel[0]	rgb(140,133,130)
+AB7/shared.both.pixel[1]	rgb(141,134,131)
+AB7/shared.done	1

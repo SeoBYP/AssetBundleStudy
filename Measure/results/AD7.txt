@@ -1,0 +1,46 @@
+ad7_v1.build_seconds	6.1
+ad7_v1.group.AD7_Remote.bundle_count	2
+ad7_v1.bundle	ad7_remote_assets_ad7_item1_152982bfa11473a57f0728389df2c1f1.bundle 184.9 KB
+ad7_v1.bundle	ad7_remote_assets_ad7_item0_b06cd0143946c32eca743fa15bbbfbde.bundle 184.7 KB
+ad7_v1.group.Duplicate Asset Isolation.bundle_count	1
+ad7_v1.bundle	duplicateassetisolation_assets_all_ddfc4039c8d2bc41f39d7acd25bed12d.bundle 262.9 KB
+ad7_v1.catalog	catalog.bin 11.2 KB
+ad7_v1.catalog	catalog.hash 0.0 KB
+ad7_v1.serverdata	ad7_remote_assets_ad7_item0_b06cd0143946c32eca743fa15bbbfbde.bundle 184.7 KB 21:44:17
+ad7_v1.serverdata	ad7_remote_assets_ad7_item1_152982bfa11473a57f0728389df2c1f1.bundle 184.9 KB 21:44:17
+ad7_v1.serverdata	catalog_0.1.0.bin 11.2 KB 21:44:18
+ad7_v1.serverdata	catalog_0.1.0.hash 0.0 KB 21:44:18
+AD7/run1.first_frame_ms_since_process_start	3573
+AD7/run1.first_frame_realtimeSinceStartup_ms	2920
+AD7/run1.ClearCache	True
+AD7/run1.init	Succeeded 84.21 ms
+AD7/run1.CheckForCatalogUpdates	Succeeded []
+AD7/run1.GetDownloadSizeAsync(AD7/Item0)	189120 B
+AD7/run1.GetDownloadSizeAsync(AD7/Item1)	189303 B
+AD7/run1.GetDownloadSizeAsync(AD7)	378423 B
+AD7/run1.DownloadDependenciesAsync	Succeeded total=378423 B
+AD7/run1.GetDownloadSizeAsync_after_download	0 B
+AD7/run1.done	1
+ad7_v2.build_seconds	3.1
+ad7_v2.group.AD7_Remote.bundle_count	2
+ad7_v2.bundle	ad7_remote_assets_ad7_item1_9d2c9f0e0ceb17689639fa16b1f46df3.bundle 185.3 KB
+ad7_v2.bundle	ad7_remote_assets_ad7_item0_b06cd0143946c32eca743fa15bbbfbde.bundle 184.7 KB
+ad7_v2.group.Duplicate Asset Isolation.bundle_count	1
+ad7_v2.bundle	duplicateassetisolation_assets_all_ddfc4039c8d2bc41f39d7acd25bed12d.bundle 262.9 KB
+ad7_v2.catalog	catalog.bin 11.2 KB
+ad7_v2.catalog	catalog.hash 0.0 KB
+ad7_v2.serverdata	ad7_remote_assets_ad7_item0_b06cd0143946c32eca743fa15bbbfbde.bundle 184.7 KB 21:44:17
+ad7_v2.serverdata	ad7_remote_assets_ad7_item1_152982bfa11473a57f0728389df2c1f1.bundle 184.9 KB 21:44:17
+ad7_v2.serverdata	ad7_remote_assets_ad7_item1_9d2c9f0e0ceb17689639fa16b1f46df3.bundle 185.3 KB 21:44:39
+ad7_v2.serverdata	catalog_0.1.0.bin 11.2 KB 21:44:39
+ad7_v2.serverdata	catalog_0.1.0.hash 0.0 KB 21:44:39
+AD7/run2.first_frame_ms_since_process_start	3658
+AD7/run2.first_frame_realtimeSinceStartup_ms	2952
+AD7/run2.init	Succeeded 108.84 ms
+AD7/run2.CheckForCatalogUpdates	Succeeded []
+AD7/run2.GetDownloadSizeAsync(AD7/Item0)	0 B
+AD7/run2.GetDownloadSizeAsync(AD7/Item1)	189734 B
+AD7/run2.GetDownloadSizeAsync(AD7)	189734 B
+AD7/run2.DownloadDependenciesAsync	Succeeded total=189734 B
+AD7/run2.GetDownloadSizeAsync_after_download	0 B
+AD7/run2.done	1

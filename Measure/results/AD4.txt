@@ -1,0 +1,36 @@
+AD4/plain.first_frame_ms_since_process_start	3576
+AD4/plain.first_frame_realtimeSinceStartup_ms	2941
+AD4/plain.init	Succeeded 68.73 ms
+AD4/plain.1_loaded_A_B.A_alive	1 [2687:256]
+AD4/plain.1_loaded_A_B.mem	native +2.21 MB, gc +0.04 MB, gfx +16.02 MB, reserved +2.00 MB
+AD4/plain.1_loaded_A_B.bundles	1 [f1268d5f2d4accc9b1af0771697d7554.bundle]
+AD4/plain.2_release_A.A_alive	1 [2687:256]
+AD4/plain.2_release_A.B_alive	1 [2686:256]
+AD4/plain.2_release_A.mem	native +2.22 MB, gc +0.05 MB, gfx +16.02 MB, reserved +2.00 MB
+AD4/plain.2_release_A.bundles	1 [f1268d5f2d4accc9b1af0771697d7554.bundle]
+AD4/plain.5_release_B.A_alive	0 []
+AD4/plain.5_release_B.B_alive	0 []
+AD4/plain.5_release_B.mem	native +1.96 MB, gc +0.06 MB, gfx +0.00 MB, reserved +2.00 MB
+AD4/plain.5_release_B.bundles	0 []
+AD4/plain.done	1
+AD4/unloadunused.first_frame_ms_since_process_start	3713
+AD4/unloadunused.first_frame_realtimeSinceStartup_ms	2970
+AD4/unloadunused.init	Succeeded 77.60 ms
+AD4/unloadunused.1_loaded_A_B.A_alive	1 [2687:256]
+AD4/unloadunused.1_loaded_A_B.mem	native +1.96 MB, gc +0.04 MB, gfx +16.02 MB, reserved +2.00 MB
+AD4/unloadunused.1_loaded_A_B.bundles	1 [f1268d5f2d4accc9b1af0771697d7554.bundle]
+AD4/unloadunused.2_release_A.A_alive	1 [2687:256]
+AD4/unloadunused.2_release_A.B_alive	1 [2686:256]
+AD4/unloadunused.2_release_A.mem	native +2.10 MB, gc +0.05 MB, gfx +16.02 MB, reserved +2.00 MB
+AD4/unloadunused.2_release_A.bundles	1 [f1268d5f2d4accc9b1af0771697d7554.bundle]
+AD4/unloadunused.3_UnloadUnusedAssets.ms	2.16 ms
+AD4/unloadunused.3_UnloadUnusedAssets.A_alive	0 []
+AD4/unloadunused.3_UnloadUnusedAssets.B_alive	1 [2686:256]
+AD4/unloadunused.3_UnloadUnusedAssets.mem	native +1.95 MB, gc +0.09 MB, gfx +0.02 MB, reserved +2.00 MB
+AD4/unloadunused.3_UnloadUnusedAssets.bundles	1 [f1268d5f2d4accc9b1af0771697d7554.bundle]
+AD4/unloadunused.4_reload_A	Succeeded 8.93 ms alive=1 [2687:256]
+AD4/unloadunused.5_release_B.A_alive	0 []
+AD4/unloadunused.5_release_B.B_alive	0 []
+AD4/unloadunused.5_release_B.mem	native +1.81 MB, gc +0.07 MB, gfx +0.00 MB, reserved +2.00 MB
+AD4/unloadunused.5_release_B.bundles	0 []
+AD4/unloadunused.done	1

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AD1_Included
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: AD1_Included
+  m_GUID: bc6ec800379a8ec4a927b5d2ee582936
+  m_SerializeEntries:
+  - m_GUID: cd3be61c7f377bd43b9b2595d6478e32
+    m_Address: AD1/Included
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2a47b3bb8ae762647862f01375566d04, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5613858ac55b8bc40b12927f88cbffb8, type: 2}
+    - {fileID: 11400000, guid: 2e52cbff771c6e64782d3bb673c7ebd6, type: 2}
+    m_SchemaDisplayOrder:
+    - AD1_Included_BundledAssetGroupSchema
+    - AD1_Included_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

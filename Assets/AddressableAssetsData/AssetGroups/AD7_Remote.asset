@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AD7_Remote
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: AD7_Remote
+  m_GUID: 0b407625226d1104cad2725b8f542b86
+  m_SerializeEntries:
+  - m_GUID: d71de681ba53a3848bbb107bce4f7551
+    m_Address: AD7/Item1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AD7
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea52ba689a566af45b0c603b11d723d9
+    m_Address: AD7/Item0
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AD7
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2a47b3bb8ae762647862f01375566d04, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7b7f34e6f912b1e409ebcafd29926ba8, type: 2}
+    - {fileID: 11400000, guid: 3e5927b1d3e0f9c4883df748738624ab, type: 2}
+    m_SchemaDisplayOrder:
+    - AD7_Remote_BundledAssetGroupSchema
+    - AD7_Remote_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

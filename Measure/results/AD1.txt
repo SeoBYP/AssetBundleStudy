@@ -1,0 +1,24 @@
+AD1/player.first_frame_ms_since_process_start	4365
+AD1/player.first_frame_realtimeSinceStartup_ms	2984
+AD1/player.init	Succeeded 80.37 ms
+AD1/player.AD1/Included	Succeeded (AD1_In)
+AD1/player.log_Error	UnityEngine.AddressableAssets.InvalidKeyException: Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown. No Location found for Key=AD1/Excluded
+AD1/player.AD1/Excluded	Failed: InvalidKeyException Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown. No Location found for Key=AD1/Excluded
+AD1/player.done	1
+AD1/player_no_aa.first_frame_ms_since_process_start	3567
+AD1/player_no_aa.first_frame_realtimeSinceStartup_ms	2923
+AD1/player_no_aa.log_Error	System.Exception: Invalid path in TextDataProvider : 'C:/Users/user/Github/AssetBundleStudy/Builds/Player/AssetBundleStudy_Data/StreamingAssets/aa/settings.json'.
+AD1/player_no_aa.log_Error	RuntimeData is null.  Please ensure you have built the correct Player Content.
+AD1/player_no_aa.log_Error	OperationException : Addressables - Unable to load runtime data at location UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[[UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData, Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].
+AD1/player_no_aa.init	Failed 24.04 ms
+AD1/player_no_aa.log_Error	UnityEngine.AddressableAssets.InvalidKeyException: Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown. No Location found for Key=AD1/Included
+AD1/player_no_aa.AD1/Included	Failed: InvalidKeyException Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown. No Location found for Key=AD1/Included
+AD1/player_no_aa.log_Error	UnityEngine.AddressableAssets.InvalidKeyException: Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown. No Location found for Key=AD1/Excluded
+AD1/player_no_aa.AD1/Excluded	Failed: InvalidKeyException Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown. No Location found for Key=AD1/Excluded
+AD1/player_no_aa.done	1
+AD1/editor_fast.init	Succeeded
+AD1/editor_fast.AD1/Included	Succeeded (AD1_In)
+AD1/editor_fast.AD1/Excluded	Succeeded (AD1_Out)
+AD1/editor_packed.init	Succeeded
+AD1/editor_packed.AD1/Included	Succeeded (AD1_In)
+AD1/editor_packed.AD1/Excluded	Failed: InvalidKeyException Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown. No Location found for Key=AD1/Excluded

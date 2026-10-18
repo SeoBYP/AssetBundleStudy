@@ -1,0 +1,28 @@
+compress_lzma/payload.size	8386.5 KB
+compress_lzma/payload.deps	
+compress_lzma/cube.size	97.2 KB
+compress_lzma/cube.deps	
+compress_lzma/scene.size	900.5 KB
+compress_lzma/scene.deps	
+compress_lz4/payload.size	11651.2 KB
+compress_lz4/payload.deps	
+compress_lz4/cube.size	265.6 KB
+compress_lz4/cube.deps	
+compress_lz4/scene.size	1930.7 KB
+compress_lz4/scene.deps	
+compress_none/payload.size	12292.7 KB
+compress_none/payload.deps	
+compress_none/cube.size	442.1 KB
+compress_none/cube.deps	
+compress_none/scene.size	2726.8 KB
+compress_none/scene.deps	
+dup_lz4/cubea.size	265.6 KB
+dup_lz4/cubea.deps	
+dup_lz4/cubeb.size	265.6 KB
+dup_lz4/cubeb.deps	
+shared_lz4/cubea.size	3.9 KB
+shared_lz4/cubea.deps	mat
+shared_lz4/cubeb.size	4.0 KB
+shared_lz4/cubeb.deps	mat
+shared_lz4/mat.size	262.6 KB
+shared_lz4/mat.deps	

@@ -1,0 +1,127 @@
+ad2_together.build_seconds	4.1
+ad2_together.group.AD2.bundle_count	1
+ad2_together.bundle	ad2_assets_all_bc92806b9416d81b389232fde17e54a4.bundle 14552.1 KB
+ad2_together.catalog	catalog.bin 8.7 KB
+ad2_together.catalog	catalog.hash 0.0 KB
+ad2_separate.build_seconds	3.1
+ad2_separate.group.AD2.bundle_count	20
+ad2_separate.bundle	ad2_assets_ad2_tex01_57bb0ee9dcadaf3fcfaec05640bf94d9.bundle 729.7 KB
+ad2_separate.bundle	ad2_assets_ad2_tex03_6986255181ef1bdd6d1c4c5119c2a31e.bundle 733.6 KB
+ad2_separate.bundle	ad2_assets_ad2_tex00_9900c8c7352e99f8a2d79c73320030ab.bundle 737.3 KB
+ad2_separate.bundle	ad2_assets_ad2_tex04_6dd1c8496613047d3783cb4b4eedb9cf.bundle 725.6 KB
+ad2_separate.bundle	ad2_assets_ad2_tex15_d26d8d78e62f4ed6dab21356516a7df1.bundle 729.1 KB
+ad2_separate.bundle	ad2_assets_ad2_tex19_9294439fe98f0aaded671e755a06d36b.bundle 724.4 KB
+ad2_separate.bundle	ad2_assets_ad2_tex17_a83b4e5c2e7ecfed048e24c4c77a4b75.bundle 729.4 KB
+ad2_separate.bundle	ad2_assets_ad2_tex18_e0a495b7f72dfbb3a8378d94b3c616b0.bundle 727.2 KB
+ad2_separate.bundle	ad2_assets_ad2_tex09_3f7e46c5b3594630ca6e11c3633ded2f.bundle 727.9 KB
+ad2_separate.bundle	ad2_assets_ad2_tex10_14de3c81e7c28ccdb5ad0c46224cae73.bundle 714.3 KB
+ad2_separate.bundle	ad2_assets_ad2_tex02_15cff5511b9e72148ee8888464d27b15.bundle 728.0 KB
+ad2_separate.bundle	ad2_assets_ad2_tex13_aca88ecf263a90def85def6830d7fb9b.bundle 733.9 KB
+ad2_separate.bundle	ad2_assets_ad2_tex11_53eaa6de22fe8997ae4c40f286b61f8b.bundle 724.5 KB
+ad2_separate.bundle	ad2_assets_ad2_tex06_cd0a858c049cccdfb1f393f3a6642735.bundle 735.6 KB
+ad2_separate.bundle	ad2_assets_ad2_tex16_9512cb6fbe9b2e31e25290e08905accd.bundle 730.8 KB
+ad2_separate.bundle	ad2_assets_ad2_tex08_980d925561d98f61179d18636dd631dc.bundle 734.4 KB
+ad2_separate.bundle	ad2_assets_ad2_tex14_e6cb91fc7a89c6349b33ad43c8f77392.bundle 725.2 KB
+ad2_separate.bundle	ad2_assets_ad2_tex12_e854c63889f13864d1e941b43c056c36.bundle 733.6 KB
+ad2_separate.bundle	ad2_assets_ad2_tex07_ff0419956b4e100bf8a67ca20b12ad23.bundle 734.6 KB
+ad2_separate.bundle	ad2_assets_ad2_tex05_e5e3e005f80457fdb3b002fc0c3cb373.bundle 732.0 KB
+ad2_separate.catalog	catalog.bin 16.4 KB
+ad2_separate.catalog	catalog.hash 0.0 KB
+ad2_label.build_seconds	3.2
+ad2_label.group.AD2.bundle_count	4
+ad2_label.bundle	ad2_assets_l1_224902924cc7326f19d4159b9540b912.bundle 3644.8 KB
+ad2_label.bundle	ad2_assets_l3_b4e124d214ebf42f771a390a481d0cc2.bundle 3638.0 KB
+ad2_label.bundle	ad2_assets_l0_93e84f9c4e0b401dc1af9e38dc93f1ea.bundle 3653.9 KB
+ad2_label.bundle	ad2_assets_l2_0c35150d0b580bb8e5da91cbdfd8f877.bundle 3622.1 KB
+ad2_label.catalog	catalog.bin 9.8 KB
+ad2_label.catalog	catalog.hash 0.0 KB
+AD2/together.first_frame_ms_since_process_start	3565
+AD2/together.first_frame_realtimeSinceStartup_ms	2939
+AD2/together.init	Succeeded 75.98 ms
+AD2/together.load_one	Succeeded 51.24 ms
+AD2/together.mem_after_load_one	native +1.81 MB, gc +0.04 MB, gfx +1.00 MB, reserved +2.00 MB
+AD2/together.loaded_bundles	1 [b89757fe84eb62174632c432ee093851.bundle]
+AD2/together.textures_AD2_alive	1
+AD2/together.catalog_file	catalog.bin 8.7 KB
+AD2/together.catalog_file	catalog.hash 0.0 KB
+AD2/together.done	1
+AD2/together.first_frame_ms_since_process_start	3560
+AD2/together.first_frame_realtimeSinceStartup_ms	2925
+AD2/together.init	Succeeded 69.24 ms
+AD2/together.load_one	Succeeded 49.15 ms
+AD2/together.mem_after_load_one	native +1.82 MB, gc +0.04 MB, gfx +1.00 MB, reserved +2.00 MB
+AD2/together.loaded_bundles	1 [b89757fe84eb62174632c432ee093851.bundle]
+AD2/together.textures_AD2_alive	1
+AD2/together.catalog_file	catalog.bin 8.7 KB
+AD2/together.catalog_file	catalog.hash 0.0 KB
+AD2/together.done	1
+AD2/together.first_frame_ms_since_process_start	3552
+AD2/together.first_frame_realtimeSinceStartup_ms	2925
+AD2/together.init	Succeeded 69.40 ms
+AD2/together.load_one	Succeeded 49.64 ms
+AD2/together.mem_after_load_one	native +1.81 MB, gc +0.03 MB, gfx +1.00 MB, reserved +2.00 MB
+AD2/together.loaded_bundles	1 [b89757fe84eb62174632c432ee093851.bundle]
+AD2/together.textures_AD2_alive	1
+AD2/together.catalog_file	catalog.bin 8.7 KB
+AD2/together.catalog_file	catalog.hash 0.0 KB
+AD2/together.done	1
+AD2/separate.first_frame_ms_since_process_start	3565
+AD2/separate.first_frame_realtimeSinceStartup_ms	2929
+AD2/separate.init	Succeeded 68.76 ms
+AD2/separate.load_one	Succeeded 16.00 ms
+AD2/separate.mem_after_load_one	native +1.93 MB, gc +0.02 MB, gfx +1.00 MB, reserved +2.00 MB
+AD2/separate.loaded_bundles	1 [adc27b10e006e1c1f4906341a2431153.bundle]
+AD2/separate.textures_AD2_alive	1
+AD2/separate.catalog_file	catalog.bin 16.4 KB
+AD2/separate.catalog_file	catalog.hash 0.0 KB
+AD2/separate.done	1
+AD2/separate.first_frame_ms_since_process_start	3566
+AD2/separate.first_frame_realtimeSinceStartup_ms	2940
+AD2/separate.init	Succeeded 67.08 ms
+AD2/separate.load_one	Succeeded 15.63 ms
+AD2/separate.mem_after_load_one	native +1.79 MB, gc +0.02 MB, gfx +1.00 MB, reserved +2.00 MB
+AD2/separate.loaded_bundles	1 [adc27b10e006e1c1f4906341a2431153.bundle]
+AD2/separate.textures_AD2_alive	1
+AD2/separate.catalog_file	catalog.bin 16.4 KB
+AD2/separate.catalog_file	catalog.hash 0.0 KB
+AD2/separate.done	1
+AD2/separate.first_frame_ms_since_process_start	3577
+AD2/separate.first_frame_realtimeSinceStartup_ms	2934
+AD2/separate.init	Succeeded 71.47 ms
+AD2/separate.load_one	Succeeded 18.10 ms
+AD2/separate.mem_after_load_one	native +1.68 MB, gc +0.03 MB, gfx +1.00 MB, reserved +2.00 MB
+AD2/separate.loaded_bundles	1 [adc27b10e006e1c1f4906341a2431153.bundle]
+AD2/separate.textures_AD2_alive	1
+AD2/separate.catalog_file	catalog.bin 16.4 KB
+AD2/separate.catalog_file	catalog.hash 0.0 KB
+AD2/separate.done	1
+AD2/label.first_frame_ms_since_process_start	3578
+AD2/label.first_frame_realtimeSinceStartup_ms	2937
+AD2/label.init	Succeeded 67.48 ms
+AD2/label.load_one	Succeeded 25.27 ms
+AD2/label.mem_after_load_one	native +1.81 MB, gc +0.02 MB, gfx +1.00 MB, reserved +2.00 MB
+AD2/label.loaded_bundles	1 [ae0ea0ee14adb60f7c9d0066d87c2862.bundle]
+AD2/label.textures_AD2_alive	1
+AD2/label.catalog_file	catalog.bin 9.8 KB
+AD2/label.catalog_file	catalog.hash 0.0 KB
+AD2/label.done	1
+AD2/label.first_frame_ms_since_process_start	3567
+AD2/label.first_frame_realtimeSinceStartup_ms	2926
+AD2/label.init	Succeeded 69.18 ms
+AD2/label.load_one	Succeeded 22.59 ms
+AD2/label.mem_after_load_one	native +1.79 MB, gc +0.03 MB, gfx +1.00 MB, reserved +2.00 MB
+AD2/label.loaded_bundles	1 [ae0ea0ee14adb60f7c9d0066d87c2862.bundle]
+AD2/label.textures_AD2_alive	1
+AD2/label.catalog_file	catalog.bin 9.8 KB
+AD2/label.catalog_file	catalog.hash 0.0 KB
+AD2/label.done	1
+AD2/label.first_frame_ms_since_process_start	3548
+AD2/label.first_frame_realtimeSinceStartup_ms	2928
+AD2/label.init	Succeeded 68.48 ms
+AD2/label.load_one	Succeeded 21.95 ms
+AD2/label.mem_after_load_one	native +1.67 MB, gc +0.04 MB, gfx +1.00 MB, reserved +2.00 MB
+AD2/label.loaded_bundles	1 [ae0ea0ee14adb60f7c9d0066d87c2862.bundle]
+AD2/label.textures_AD2_alive	1
+AD2/label.catalog_file	catalog.bin 9.8 KB
+AD2/label.catalog_file	catalog.hash 0.0 KB
+AD2/label.done	1
