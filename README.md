@@ -272,7 +272,7 @@ Content Directories(CD1~CD4)는 [ContentDirectoriesStudy README 7.4절](https://
 
 - `GetDownloadSizeAsync`와 `DownloadDependenciesAsync`의 합계는 둘 다 카탈로그에 적힌 번들 크기에서 나온 값이라 서로 독립된 증거가 아닙니다. 그래서 **카탈로그와 독립된 근거 두 가지**를 따로 남겼습니다. 디스크 캐시는 새 번들 크기만큼(+23 B, 캐시 정보 파일로 추정) 늘었고, 서버 로그에는 바뀐 번들 요청만 있습니다.
 - 업데이트 빌드는 item1만 새 해시 이름(`…_9d2c9f0e….bundle`)으로 추가했고, item0 번들은 그대로 두었습니다.
-- 2회차는 초기화 중에 원격 카탈로그 해시가 달라진 것을 보고 새 카탈로그를 자동으로 받았습니다. 그래서 그 뒤 `CheckForCatalogUpdates`는 빈 목록입니다.
+- 2회차는 초기화 중에 원격 카탈로그 해시가 달라진 것을 보고 새 카탈로그를 자동으로 받았습니다. 그래서 그 뒤 `CheckForCatalogUpdates`는 빈 목록입니다. 이 프로젝트는 시작 시 카탈로그 자동 갱신이 켜진 기본값(`AddressableAssetSettings.asset`의 `m_DisableCatalogUpdateOnStart: 0`)입니다. `CheckForCatalogUpdates` → `UpdateCatalogs`를 직접 부르는 흐름은 이 설정을 끈 경우에 해당하며, 그 조건은 **미실측**입니다.
 
 ---
 
