@@ -4,3 +4,5 @@ AB1.first_frame_ms_since_process_start	3610
 AB1.first_frame_realtimeSinceStartup_ms	2916
 AB1.resources_load	loaded: "AB1 unreferenced asset inside Resources"
 AB1.done	1
+AB1_Unreferenced	resources.assets (Assets/Resources/AB1_Unreferenced.txt, 64 B)
+AB1_NotInResources	not in build

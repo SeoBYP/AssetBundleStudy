@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5d17a21594effb4e9591490b009e7aa, type: 3}
   m_Name: Duplicate Asset Isolation_BundledAssetGroupSchema
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.GroupSchemas.BundledAssetGroupSchema
-  m_Group: {fileID: 11400000, guid: 9304ddf0df55a044cb6056f8f547bfa6, type: 2}
+  m_Group: {fileID: 11400000, guid: ab1c208bced6b714db7365a3866f584c, type: 2}
   m_SchemaIsEnabled: 1
   m_InternalBundleIdMode: 1
   m_Compression: 1

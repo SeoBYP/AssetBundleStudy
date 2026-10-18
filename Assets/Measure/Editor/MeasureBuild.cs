@@ -75,11 +75,6 @@ public static class MeasureBuild
 
     public static void BuildPlayer()
     {
-        PlayerSettings.fullScreenMode = FullScreenMode.Windowed;
-        PlayerSettings.defaultScreenWidth = 960;
-        PlayerSettings.defaultScreenHeight = 540;
-        PlayerSettings.runInBackground = true;
-        PlayerSettings.resizableWindow = false;
         var report = Player(PlayerExe);
 
         // AB1: Resources 안/밖의 미참조 에셋이 빌드에 들어갔는가
@@ -93,6 +88,14 @@ public static class MeasureBuild
 
     static BuildReport Player(string exe)
     {
+        PlayerSettings.fullScreenMode = FullScreenMode.Windowed;
+        PlayerSettings.defaultScreenWidth = 960;
+        PlayerSettings.defaultScreenHeight = 540;
+        PlayerSettings.runInBackground = true;
+        PlayerSettings.resizableWindow = false;
+        // AB2: 스플래시가 켜져 있으면 첫 프레임 시간이 스플래시 길이에 묻힌다
+        PlayerSettings.SplashScreen.show = false;
+        PlayerSettings.SplashScreen.showUnityLogo = false;
         var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
         {
             scenes = new[] { "Assets/Scenes/SampleScene.unity" },
@@ -149,6 +152,12 @@ public static class MeasureBuild
             s.RemoteCatalogLoadPath.SetVariableByName(s, AddressableAssetSettings.kRemoteLoadPath);
         }
 
+        if (phase == "ad3_before")
+        {
+            // 이전 실행에서 Fix로 만든 격리 그룹이 남아 있으면 "고치기 전"이 아니게 된다
+            var iso = s.FindGroup("Duplicate Asset Isolation");
+            if (iso != null) s.RemoveGroup(iso);
+        }
         if (phase == "ad3_before" || phase == "ad3_after")
         {
             var rule = new CheckBundleDupeDependencies();
@@ -161,7 +170,9 @@ public static class MeasureBuild
                 var iso = s.groups.Where(g => g != null && g.Name.Contains("Duplicate")).ToList();
                 foreach (var g in iso)
                     Log("AD3", "fix.created_group", $"{g.Name}: {string.Join(", ", g.entries.Select(e => e.AssetPath))}");
-                Log("AD3", "after_fix.analyze_result_count", new CheckBundleDupeDependencies().RefreshAnalysis(s).Count);
+                var after = new CheckBundleDupeDependencies().RefreshAnalysis(s);
+                Log("AD3", "after_fix.analyze_result_count", after.Count);
+                foreach (var r in after) Log("AD3", "after_fix.analyze", r.resultName);
             }
         }
         EditorUtility.SetDirty(s);
@@ -177,7 +188,13 @@ public static class MeasureBuild
         }
         else
         {
-            if (phase == "ad7_v1" && Directory.Exists("Builds/ServerData")) Directory.Delete("Builds/ServerData", true);
+            if (phase == "ad7_v1")
+            {
+                if (Directory.Exists("Builds/ServerData")) Directory.Delete("Builds/ServerData", true);
+                // v2에서 바꿀 항목을 원래 내용으로 되돌린다 (재실행해도 v1 → v2 변경이 생기도록)
+                MeasureSetup.Texture(MeasureSetup.Gen + "/AD7_Item1.png", 256, 71, overwrite: true);
+                AssetDatabase.Refresh();
+            }
             AddressableAssetSettings.CleanPlayerContent();
             AddressableAssetSettings.BuildPlayerContent(out result);
         }

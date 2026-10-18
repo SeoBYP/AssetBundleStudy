@@ -11,9 +11,13 @@ def runs(name):
     d = collections.defaultdict(list)
     for line in open(R / f"{name}.txt", encoding="utf-8"):
         k, _, v = line.rstrip("\n").partition("\t")
-        m = re.match(rf"{name}/([^#.]+)(?:#\w+)?\.(.+)$", k)
+        if "#warmup" in k:  # AB2 예열 실행은 뺀다
+            continue
+        # 회차 태그 "#lzma-2"처럼 '-' 앞부분이 있으면 조건 이름으로 묶는다 (AB5)
+        m = re.match(rf"{name}/([^#.]+)(?:#(?:([a-z0-9]+)-)?[\w]+)?\.(.+)$", k)
         if m and (n := NUM.search(v)):
-            d[(m.group(1), m.group(2))].append(float(n.group()))
+            variant = m.group(1) + (f"/{m.group(2)}" if m.group(2) else "")
+            d[(variant, m.group(3))].append(float(n.group()))
     return d
 
 
@@ -28,4 +32,5 @@ def show(name, keys, skip_first=False):
 
 show("AB3", [r"\w+\.open_ms", r"\w+\.loadasset_ms", r"\w+\.mem_after_open"])
 show("AD2", [r"load_one", r"init"])
-show("AB2", [r"first_frame_ms_since_process_start", r"first_frame_realtimeSinceStartup_ms"], skip_first=True)
+show("AB2", [r"first_frame_ms_since_process_start", r"first_frame_realtimeSinceStartup_ms"])
+show("AB5", [r"load1\.ms", r"load2\.ms", r"load1\.mem_after_open"])

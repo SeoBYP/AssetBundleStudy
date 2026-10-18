@@ -10,7 +10,7 @@ ad3_before.analyze	AD3_B:ad3_b_assets_all.bundle:Packages/com.unity.render-pipel
 ad3_before.analyze	AD6:ad6_assets_all.bundle:Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
 ad3_before.analyze	AD6:ad6_assets_all.bundle:Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
 ad3_before.analyze	AD6:ad6_assets_all.bundle:Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/FallbackShader.shader
-ad3_before.build_seconds	2.2
+ad3_before.build_seconds	2.3
 ad3_before.group.AD3_A.bundle_count	1
 ad3_before.bundle	ad3_a_assets_all_1eb4a1adf0322d9e07b812a39bffc213.bundle 264.5 KB
 ad3_before.group.AD3_B.bundle_count	1
@@ -31,28 +31,31 @@ ad3_after.analyze	AD6:ad6_assets_all.bundle:Packages/com.unity.render-pipelines.
 ad3_after.analyze	AD6:ad6_assets_all.bundle:Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/FallbackShader.shader
 fix.created_group	Duplicate Asset Isolation: Assets/Measure/Generated/AD3_Mat.mat, Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader, Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader, Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/FallbackShader.shader
 after_fix.analyze_result_count	1
-ad3_after.build_seconds	2.9
+after_fix.analyze	No issues found
+ad3_after.build_seconds	3.2
 ad3_after.group.AD3_A.bundle_count	1
-ad3_after.bundle	ad3_a_assets_all_c64dcd890aaf926bc129634fe35a7cf0.bundle 3.6 KB
+ad3_after.bundle	ad3_a_assets_all_c02dbf99622d6480860edccbd669af98.bundle 3.6 KB
 ad3_after.group.AD3_B.bundle_count	1
-ad3_after.bundle	ad3_b_assets_all_cba7f42de06cfc5ca5fd2d8f9084f461.bundle 3.6 KB
+ad3_after.bundle	ad3_b_assets_all_44644b0245cd202bd7f947b25eebfd2b.bundle 3.6 KB
 ad3_after.group.Duplicate Asset Isolation.bundle_count	1
-ad3_after.bundle	duplicateassetisolation_assets_all_ddfc4039c8d2bc41f39d7acd25bed12d.bundle 262.9 KB
+ad3_after.bundle	duplicateassetisolation_assets_all_c2345c0bf3d0e24b79bdf9a097a8aef6.bundle 262.9 KB
 ad3_after.catalog	catalog.bin 10.1 KB
 ad3_after.catalog	catalog.hash 0.0 KB
-AD3/after.first_frame_ms_since_process_start	3594
-AD3/after.first_frame_realtimeSinceStartup_ms	2944
-AD3/after.init	Succeeded 71.47 ms
-AD3/after.material_AD3_Mat_alive	1 [2687:256]
+AD3/after.gpu_resident_drawer	InstancedDrawing
+AD3/after.first_frame_ms_since_process_start	6937
+AD3/after.first_frame_realtimeSinceStartup_ms	533
+AD3/after.init	Succeeded 77.32 ms
+AD3/after.material_AD3_Mat_alive	1 [2683:256]
 AD3/after.same_material_object	True
-AD3/after.loaded_bundles	4 [43e72f8d84487e9c4dfe539795d5f892.bundle, 48cce9012977da12a753c14387bf7d7b_monoscripts.bundle, 8d066b348d8fd068f6b4c89a8ff52d67.bundle, a32626487f8e2e96b46a54afba0872df.bundle]
-AD3/after.mem	native +5.44 MB, gc +0.07 MB, gfx +0.06 MB, reserved +4.00 MB
+AD3/after.loaded_bundles	4 [43e72f8d84487e9c4dfe539795d5f892.bundle, 48cce9012977da12a753c14387bf7d7b_monoscripts.bundle, a32626487f8e2e96b46a54afba0872df.bundle, e9b00e07f2dfddfcd4493d480750f050.bundle]
+AD3/after.mem	native +5.82 MB, gc +0.07 MB, gfx +0.06 MB, reserved +4.00 MB
 AD3/after.done	1
-AD3/before.first_frame_ms_since_process_start	3614
-AD3/before.first_frame_realtimeSinceStartup_ms	2924
-AD3/before.init	Succeeded 67.72 ms
-AD3/before.material_AD3_Mat_alive	2 [2688:256,2699:256]
+AD3/before.gpu_resident_drawer	InstancedDrawing
+AD3/before.first_frame_ms_since_process_start	1053
+AD3/before.first_frame_realtimeSinceStartup_ms	442
+AD3/before.init	Succeeded 76.30 ms
+AD3/before.material_AD3_Mat_alive	2 [2684:256,2695:256]
 AD3/before.same_material_object	False
 AD3/before.loaded_bundles	3 [43e72f8d84487e9c4dfe539795d5f892.bundle, 48cce9012977da12a753c14387bf7d7b_monoscripts.bundle, a32626487f8e2e96b46a54afba0872df.bundle]
-AD3/before.mem	native +7.30 MB, gc +0.07 MB, gfx +0.06 MB, reserved +4.00 MB
+AD3/before.mem	native +7.18 MB, gc +0.06 MB, gfx +0.06 MB, reserved +4.00 MB
 AD3/before.done	1

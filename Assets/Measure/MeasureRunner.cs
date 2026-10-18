@@ -8,7 +8,10 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Networking;
 using UnityEngine.Profiling;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.SceneManagement;
 using Debug = UnityEngine.Debug;
 using Object = UnityEngine.Object;
 
@@ -31,7 +34,10 @@ public class MeasureRunner : MonoBehaviour
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     static void Boot()
     {
-        if (Arg("exp") != null) new GameObject("MeasureRunner").AddComponent<MeasureRunner>();
+        if (Arg("exp") == null) return;
+        var go = new GameObject("MeasureRunner");
+        DontDestroyOnLoad(go); // AD6: 씬을 다시 로드해도 측정을 이어 간다
+        go.AddComponent<MeasureRunner>();
     }
 
     void Log(string key, object value)
@@ -55,8 +61,12 @@ public class MeasureRunner : MonoBehaviour
         Application.targetFrameRate = -1;
         Application.logMessageReceived += (msg, stack, type) =>
         {
-            if (type == LogType.Exception || type == LogType.Error) Log("log_" + type, msg.Split('\n')[0]);
+            if (type != LogType.Log) Log("log_" + type, msg.Split('\n')[0]);
         };
+        // AB9·AD6: -grd off 로 GPU Resident Drawer를 끄고 비교한다
+        var urp = GraphicsSettings.currentRenderPipeline as UniversalRenderPipelineAsset;
+        if (urp != null && Arg("grd") == "off") urp.gpuResidentDrawerMode = GPUResidentDrawerMode.Disabled;
+        if (urp != null) Log("gpu_resident_drawer", urp.gpuResidentDrawerMode);
         SetupCamera();
 
         yield return new WaitForEndOfFrame();
@@ -161,7 +171,7 @@ public class MeasureRunner : MonoBehaviour
     {
         yield return new WaitForEndOfFrame();
         var tex = ScreenCapture.CaptureScreenshotAsTexture();
-        File.WriteAllBytes(Path.Combine(outDir, $"{exp}{(variant == "" ? "" : "_" + variant)}_{tag}.png"), tex.EncodeToPNG());
+        File.WriteAllBytes(Path.Combine(outDir, $"{exp}{(variant == "" ? "" : "_" + variant)}{(rep == "" ? "" : "_" + rep)}_{tag}.png"), tex.EncodeToPNG());
         for (int i = 0; i < objs.Length; i++)
         {
             if (objs[i] == null) { Log($"{tag}.pixel[{i}]", "object destroyed"); continue; }
@@ -595,6 +605,27 @@ public class MeasureRunner : MonoBehaviour
         Log("2_after.bundles", LoadedBundles());
         Log("2_after.material_Lit_alive", Alive<Material>("Lit"));
         yield return Shot("2_after", go);
+
+        // 한 시점만 보지 않도록: 2초 뒤, UnloadUnusedAssets 뒤, 씬을 다시 로드한 뒤
+        yield return new WaitForSecondsRealtime(2);
+        Log("3_after_2s.bundles", LoadedBundles());
+        Log("3_after_2s.handle_valid", h.IsValid());
+        yield return Resources.UnloadUnusedAssets();
+        Log("4_after_UnloadUnusedAssets.bundles", LoadedBundles());
+        Log("4_after_UnloadUnusedAssets.material_Lit_alive", Alive<Material>("Lit"));
+        Log("4_after_UnloadUnusedAssets.instance", MatInfo(go));
+        yield return SceneManager.LoadSceneAsync(0, LoadSceneMode.Single);
+        yield return Frames(3);
+        Log("5_after_scene_reload.instance_alive", go != null);
+        Log("5_after_scene_reload.bundles", LoadedBundles());
+        Log("5_after_scene_reload.handle_valid", h.IsValid());
+        Log("5_after_scene_reload.material_Lit_alive", Alive<Material>("Lit"));
+    }
+
+    static long CacheBytes()
+    {
+        var path = Caching.currentCacheForWriting.path;
+        return Directory.Exists(path) ? Directory.GetFiles(path, "*", SearchOption.AllDirectories).Sum(f => new FileInfo(f).Length) : 0;
     }
 
     // variant = run1 (캐시 비우고 시작) | run2 (콘텐츠 업데이트 뒤)
@@ -625,8 +656,11 @@ public class MeasureRunner : MonoBehaviour
             Log($"GetDownloadSizeAsync({key})", $"{size.Result} B");
             Addressables.Release(size);
         }
+        // 카탈로그 값과 독립된 확인: 다운로드 전후 디스크 캐시 크기
+        long cacheBefore = CacheBytes();
         var dl = Addressables.DownloadDependenciesAsync("AD7");
         yield return dl;
+        Log("cache_bytes_added_by_download", $"{CacheBytes() - cacheBefore} B (before {cacheBefore} B)");
         Log("DownloadDependenciesAsync", $"{dl.Status} total={dl.GetDownloadStatus().TotalBytes} B");
         Addressables.Release(dl);
         var after = Addressables.GetDownloadSizeAsync("AD7");
